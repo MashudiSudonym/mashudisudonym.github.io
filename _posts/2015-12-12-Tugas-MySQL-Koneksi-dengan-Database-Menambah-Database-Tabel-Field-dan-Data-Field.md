@@ -86,8 +86,16 @@ _**Keterangan : ** Kita dapat memberikan atau tidak PRIMARY KEY pada nama field 
 
 Pada gambar, kita menggunakan nama tabel "PesertaUjian".
 
-Selanjutnya, kita cek apakah tabel benar telah ditambahkan pada database "LaporanUjian" dengan perintah _SHOW TABLES_ yang kita bahas sebelumnya.
+Status _Query OK_ menandakan kita berhasil menambah tabel beserta field di dalamnya, kita cek apakah tabel benar telah ditambahkan pada database "LaporanUjian" dengan perintah _SHOW TABLES_ yang kita bahas sebelumnya.
 
 ![Gambar 10](/images/mysql/10.png)
 
-Jika kita ingin melihat field dari tabel
+Jika kita ingin melihat field dari tabel gunakan perintah :
+
+```
+    DESCRIBE nama_tabel;
+```
+
+_**Note : ** perintah DESCRIBE dapat juga ditulis dengan DESC untuk mempersingkat pengetikan._
+
+![Gambar 9](/images/mysql/9.png)
