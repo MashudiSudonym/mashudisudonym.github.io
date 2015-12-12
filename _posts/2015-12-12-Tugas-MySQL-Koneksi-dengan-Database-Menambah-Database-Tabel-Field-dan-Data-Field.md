@@ -90,3 +90,4 @@ Selanjutnya, kita cek apakah tabel benar telah ditambahkan pada database "Lapora
 
 ![Gambar 10](/images/mysql/10.png)
 
+Jika kita ingin melihat field dari tabel
