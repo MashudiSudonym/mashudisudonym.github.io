@@ -27,6 +27,9 @@ Perintah tersebut digunakan jika Anda menggunakan user root dan tanpa password, 
 
 ![Gambar 2](/images/mysql/2.png)
 
+-----
+_**Note :** Biasakan walau tidak wajib untuk menulis perintah pada command line MySQL dengan huruf UPPERCASE, ini untuk memnudahkan agar kita dapat membedakan mana perintah dan mana nama database/tabel/field yang kita buat._
+
 ### Melihat Database, Create Database
 Melihat database apa saja yang tersedia di dalam dapat menggunakan perintah :
 
@@ -34,7 +37,6 @@ Melihat database apa saja yang tersedia di dalam dapat menggunakan perintah :
     SHOW DATABASES;
 ```
 
-_**Note :** Biasakan walau tidak wajib untuk menulis perintah pada command line MySQL dengan huruf UPPERCASE, ini untuk memnudahkan agar kita dapat membedakan mana perintah dan mana nama database/tabel/field yang kita buat._
 
 ![Gambar 3](/images/mysql/3.png)
 
@@ -104,4 +106,5 @@ _**Note :** perintah DESCRIBE dapat juga ditulis dengan DESC untuk mempersingkat
 
 ![Gambar 12](/images/mysql/12.png)
 
-### 
+### Melihat dan Menambahkan Isi Data dari Field pada Tabel Tertentu
+
