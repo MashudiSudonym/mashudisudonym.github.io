@@ -52,7 +52,7 @@ Jika berhasil menambahkan maka ada output _Query OK_, selanjutnya kita cek denga
 
 ![Gambar 5](/images/mysql/5.png)
 
-### menggunakan Database Tertentu
+### Menggunakan Database Tertentu
 
 Kita akan mencoba menggunakan salah satu database yang ada, caranya yaitu menggunakan perintah :
 
@@ -63,4 +63,30 @@ Kita akan mencoba menggunakan salah satu database yang ada, caranya yaitu menggu
 Dalam gambar ini kita menggunakan database dengan nama "LaporanUjian".
 
 ![Gambar 6](/images/mysql/6.png)
+
+### Melihat Daftar Tabel, Membuat Tabel, Melihat isi Tabel
+
+Setelah memilih database tertentu yang akan kita gunakan, langkah selanjutnya yang disarankan adalah melihat isi dari database tersebut, apakah tersedia atau tidak tabel yang akan digunakan, cara melihat daftar tabel adalah dengan perintah :
+
+```
+    SHOW TABLES;
+```
+
+![Gambar 7](/images/mysql/7.png)
+
+Pada gambar tersebut, kita masih menggunakan database "LaporanUjian" dan di database tersebut masih belum memiliki tabel, sehingga jika kita ingin menambah tabel kita dapat menggunakan perintah :
+
+```
+    CREATE TABLE nama_tabel(nama_field1 TIPE_DATA(VALUE) PRIMARY KEY, namafield2 TIPE_DATA(VALUE) NOT NULL, ... , namafieldterakhir TIPE_DATA(VALUE) NOT NULL);
+```
+
+_**Keterangan : ** Kita dapat memberikan atau tidak PRIMARY KEY pada nama field yang kita gunakan, keterangan lebih lengkap tentang tipe data dapat dilihat di [http://dev.mysql.com/doc/refman/5.7/en/data-types.html](http://dev.mysql.com/doc/refman/5.7/en/data-types.html)._
+
+![Gambar 8](/images/mysql/8.png)
+
+Pada gambar, kita menggunakan nama tabel "PesertaUjian".
+
+Selanjutnya, kita cek apakah tabel benar telah ditambahkan pada database "LaporanUjian" dengan perintah _SHOW TABLES_ yang kita bahas sebelumnya.
+
+![Gambar 10](/images/mysql/10.png)
 
