@@ -27,9 +27,6 @@ Perintah tersebut digunakan jika Anda menggunakan user root dan tanpa password, 
 
 ![Gambar 2](/images/mysql/2.png)
 
------
-_**Note :** Biasakan walau tidak wajib untuk menulis perintah pada command line MySQL dengan huruf UPPERCASE, ini untuk memnudahkan agar kita dapat membedakan mana perintah dan mana nama database/tabel/field yang kita buat._
-
 ### Melihat Database, Create Database
 Melihat database apa saja yang tersedia di dalam dapat menggunakan perintah :
 
@@ -37,6 +34,7 @@ Melihat database apa saja yang tersedia di dalam dapat menggunakan perintah :
     SHOW DATABASES;
 ```
 
+_**Note :** Biasakan walau tidak wajib untuk menulis perintah pada command line MySQL dengan huruf UPPERCASE, ini untuk memnudahkan agar kita dapat membedakan mana perintah dan mana nama database/tabel/field yang kita buat._
 
 ![Gambar 3](/images/mysql/3.png)
 
@@ -108,3 +106,40 @@ _**Note :** perintah DESCRIBE dapat juga ditulis dengan DESC untuk mempersingkat
 
 ### Melihat dan Menambahkan Isi Data dari Field pada Tabel Tertentu
 
+Melihat isi data pada field dalam tabel tertentu menggunakan perintah :
+
+```
+    SELECT * FROM nama_tabel;
+```
+
+![Gambar 13](/images/mysql/13.png)
+
+Pada gambar tersebut kita menggunakan tabel "PesertaUjian", terlihat pada tabel tersebut field yang kita buat tadi masih belum ada data apapun. Kita dapat menambah data dengan perintah :
+
+
+```
+    INSERT INTO nama_tabel VALUE('isi field1','isi field2',...,'isi field terakhir');
+```
+
+_**Note :** Ada beberapa pilihan alternatif perintah INSERT untuk menambah data pada field, bisa dilihat pada [http://dev.mysql.com/doc/refman/5.7/en/insert.html](http://dev.mysql.com/doc/refman/5.7/en/insert.html) untuk referensi lebih lanjut._
+
+![Gambar 14](/images/mysql/14.png)
+
+Pada gambar tersebut kita menggunakan tabel "PesertaUjian" dan mendapat output _Query OK_ data yang kita masukkan berhasil ter_record_, untuk melihatnya kita gunakan perintah _SELECT * FROM_.
+
+![Gambar 15](/images/mysql/15.png)
+
+![Gambar 16](/images/mysql/16.png)
+
+![Gambar 17](/images/mysql/17.png)
+
+![Gambar 18](/images/mysql/18.png)
+
+
+
+
+
+
+_Referensi :
+
+[http://dev.mysql.com/doc/](http://dev.mysql.com/doc/)_
