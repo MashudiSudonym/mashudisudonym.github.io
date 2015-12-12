@@ -23,7 +23,7 @@ Perintah tersebut digunakan jika Anda menggunakan user root dan tanpa password, 
     mysql -u root -p
 ```
 
-![Gambar 1](/images/1.png)
+![Gambar 1](/images/mysql/1.png)
 
 gambar2
 
