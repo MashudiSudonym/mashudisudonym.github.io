@@ -13,13 +13,13 @@ Command MySQL pada catatan ini menggunakan XAMPP pada sistem operasi berbasis GN
 ### MySQL Command Line
 Masuk ke dalam MySQL Command Line dapat menggunakan perintah :
 
-``` mysql
+``` 
     mysql -u root
 ```
 
 Perintah tersebut digunakan jika Anda menggunakan user root dan tanpa password, namun jika sudah memberi password pada akun user MySQL yang digunakan adalah perintah :
 
-``` mysql
+``` 
     mysql -u root -p
 ```
 
@@ -30,17 +30,17 @@ Perintah tersebut digunakan jika Anda menggunakan user root dan tanpa password, 
 ### Melihat Database, Create Database
 Melihat database apa saja yang tersedia di dalam dapat menggunakan perintah :
 
-``` mysql
+``` 
     SHOW DATABASES;
 ```
 
-_**Note :** Biasakan walau tidak wajib untuk menulis perintah pada command line MySQL dengan huruf UPPERCASE, ini untuk memnudahkan agar kita dapat membedakan mana perintah dan mana nama database/tabel/field yang kita buat_
+_**Note :** Biasakan walau tidak wajib untuk menulis perintah pada command line MySQL dengan huruf UPPERCASE, ini untuk memnudahkan agar kita dapat membedakan mana perintah dan mana nama database/tabel/field yang kita buat._
 
 ![Gambar 3](/images/mysql/3.png)
 
 Membuat (Create) Database, untuk membuat database, pastikan dahulu apakah database yang akan kita buat memiliki nama yang sama dengan database yang ada dengan perintah yang kita coba di atas tadi. Untuk membuat database kita bisa menggunakan perintah :
 
-``` mysql
+``` 
     CREATE DATABASE nama_database;
 ```
 
