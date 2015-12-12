@@ -52,3 +52,15 @@ Jika berhasil menambahkan maka ada output _Query OK_, selanjutnya kita cek denga
 
 ![Gambar 5](/images/mysql/5.png)
 
+### menggunakan Database Tertentu
+
+Kita akan mencoba menggunakan salah satu database yang ada, caranya yaitu menggunakan perintah :
+
+```
+    USE nama_database;
+```
+
+Dalam gambar ini kita menggunakan database dengan nama "LaporanUjian".
+
+![Gambar 6](/images/mysql/6.png)
+
