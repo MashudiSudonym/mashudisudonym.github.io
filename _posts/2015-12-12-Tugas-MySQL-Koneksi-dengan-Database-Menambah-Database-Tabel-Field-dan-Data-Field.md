@@ -80,7 +80,7 @@ Pada gambar tersebut, kita masih menggunakan database "LaporanUjian" dan di data
     CREATE TABLE nama_tabel(nama_field1 TIPE_DATA(VALUE) PRIMARY KEY, namafield2 TIPE_DATA(VALUE) NOT NULL, ... , namafieldterakhir TIPE_DATA(VALUE) NOT NULL);
 ```
 
-_**Keterangan :** Kita dapat memberikan atau tidak PRIMARY KEY pada nama field yang kita gunakan, keterangan lebih lengkap tentang tipe data dapat dilihat di [http://dev.mysql.com/doc/refman/5.7/en/data-types.html](http://dev.mysql.com/doc/refman/5.7/en/data-types.html).
+_**Keterangan :** Kita dapat memberikan atau tidak PRIMARY KEY pada nama field yang kita gunakan, keterangan lebih lengkap tentang tipe data dapat dilihat di [http://dev.mysql.com/doc/refman/5.7/en/data-types.html](http://dev.mysql.com/doc/refman/5.7/en/data-types.html)._
 
 ![Gambar 8](/images/mysql/8.png)
 
@@ -99,3 +99,9 @@ Jika kita ingin melihat field dari tabel gunakan perintah :
 _**Note :** perintah DESCRIBE dapat juga ditulis dengan DESC untuk mempersingkat pengetikan._
 
 ![Gambar 9](/images/mysql/9.png)
+
+![Gambar 11](/images/mysql/11.png)
+
+![Gambar 12](/images/mysql/12.png)
+
+### 
