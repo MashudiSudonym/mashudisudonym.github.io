@@ -135,6 +135,6 @@ Pada gambar tersebut kita menggunakan tabel "PesertaUjian" dan mendapat output _
 
 ![Gambar 18](/images/mysql/18.png)
 
-_**Referensi :**_
+##### Referensi
 
-_[http://dev.mysql.com/doc/](http://dev.mysql.com/doc/)_
+*[http://dev.mysql.com/doc/](http://dev.mysql.com/doc/)*
