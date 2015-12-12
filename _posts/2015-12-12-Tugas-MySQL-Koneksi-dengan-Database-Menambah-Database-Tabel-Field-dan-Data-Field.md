@@ -10,7 +10,7 @@ comments: true
 
 Akses MySQL pada catatan ini menggunakan XAMPP pada sistem operasi berbasi GNU/Linux, untuk cara akses perintah MySQL gunakan penyesuaian sesuai dengan sistem operasi yang Anda gunakan.
 
-##### MySQL Command Line
+### MySQL Command Line
 Masuk ke dalam MySQL Command Line dapat menggunakan perintah :
 
 ``` mysql
@@ -25,7 +25,7 @@ Perintah tersebut digunakan jika Anda menggunakan user root dan tanpa password, 
 
 ![Gambar 1](/images/mysql/1.png)
 
-gambar2
+![Gambar 2](/images/mysql/2.png)
 
-##### Melihat Database, Create Database
+### Melihat Database, Create Database
 Melihat database apa saja yang tersedia di dalam dapat menggunakan perintah
