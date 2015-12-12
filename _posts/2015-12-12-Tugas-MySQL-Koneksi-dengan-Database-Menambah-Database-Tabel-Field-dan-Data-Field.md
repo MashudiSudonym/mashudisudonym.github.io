@@ -80,7 +80,7 @@ Pada gambar tersebut, kita masih menggunakan database "LaporanUjian" dan di data
     CREATE TABLE nama_tabel(nama_field1 TIPE_DATA(VALUE) PRIMARY KEY, namafield2 TIPE_DATA(VALUE) NOT NULL, ... , namafieldterakhir TIPE_DATA(VALUE) NOT NULL);
 ```
 
-_**Keterangan :** Kita dapat memberikan atau tidak PRIMARY KEY pada nama field yang kita gunakan, keterangan lebih lengkap tentang tipe data dapat dilihat di [http://dev.mysql.com/doc/refman/5.7/en/data-types.html](http://dev.mysql.com/doc/refman/5.7/en/data-types.html)._
+_**Keterangan :** Kita dapat memberikan atau tidak PRIMARY KEY pada nama field yang kita gunakan, keterangan lebih lengkap tentang tipe data dapat dilihat di [http://dev.mysql.com/doc/refman/5.7/en/data-types.html](http://dev.mysql.com/doc/refman/5.7/en/data-types.html).
 
 ![Gambar 8](/images/mysql/8.png)
 
