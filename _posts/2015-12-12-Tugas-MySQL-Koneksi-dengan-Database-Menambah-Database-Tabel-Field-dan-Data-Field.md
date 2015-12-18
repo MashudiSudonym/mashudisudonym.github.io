@@ -34,7 +34,7 @@ Melihat database apa saja yang tersedia di dalam dapat menggunakan perintah :
     SHOW DATABASES;
 ```
 
-_**Note :** Biasakan walau tidak wajib untuk menulis perintah pada command line MySQL dengan huruf UPPERCASE, ini untuk memnudahkan agar kita dapat membedakan mana perintah dan mana nama database/tabel/field yang kita buat._
+_**Note :** Biasakan walau tidak wajib untuk menulis perintah pada command line MySQL dengan huruf UPPERCASE, ini untuk memudahkan agar kita dapat membedakan mana perintah dan mana nama database/tabel/field yang kita buat._
 
 ![Gambar 3](/images/mysql/3.png)
 
@@ -125,7 +125,7 @@ _**Note :** Ada beberapa pilihan alternatif perintah INSERT untuk menambah data 
 
 ![Gambar 14](/images/mysql/14.png)
 
-Pada gambar tersebut kita menggunakan tabel "PesertaUjian" dan mendapat output _Query OK_ data yang kita masukkan berhasil ter_record_, untuk melihatnya kita gunakan perintah _SELECT * FROM_.
+Pada gambar tersebut kita menggunakan tabel "PesertaUjian" dan mendapat output _Query OK_ data yang kita masukkan berhasil ter_record_, untuk melihatnya kita gunakan perintah _SELECT * FROM;_.
 
 ![Gambar 15](/images/mysql/15.png)
 
