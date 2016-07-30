@@ -51,7 +51,7 @@ Contoh :
 
 Setiap obyek pada Linux harus mempunyai pemilik, yaitu nama pemakai *(account)* yang terdaftar pada */etc/passwd.*
 
-Ijin akses dibagi menjadi 3 yaitu :
+Ijin akses dibagi menjadi 3 yaitu:
 
 - Pemilik (Owner)
 - Kelompok (Group)
