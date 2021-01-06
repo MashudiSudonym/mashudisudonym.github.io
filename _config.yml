@@ -1,13 +1,14 @@
 # Site settings
 title: Mashudi Blog
 header-img: img/home-bg.jpg
-description: "Blog catatan kuliah, linux, dan Free Open Source Software"
+description: "All my notes about code experience"
 baseurl: ""
 url: "http://mashudisudonym.github.io"
 email: muhamadmashudiardiwinata@gmail.com
 twitter_username: MashudiSudonym
 github_username:  MashudiSudonym
 facebook_username:  muhamadmashudiardiwinata
+linkedin_username: mashudi
 
 # Build settings
 markdown: kramdown
